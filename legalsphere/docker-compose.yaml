@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  legalsphere:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - LETTA_API_URL=http://letta:8283
+    depends_on:
+      - letta
+
+  letta:
+    image: letta/letta:0.6.15
+    ports:
+      - "8283:8283"
+      - "5432:5432"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ~/.letta/.persist/pgdata:/var/lib/postgresql/data

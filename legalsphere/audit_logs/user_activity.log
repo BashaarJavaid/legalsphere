@@ -1,0 +1,4435 @@
+[
+  {
+    "timestamp": "2025-04-17 19:21:40",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:21:51",
+    "username": "guest1",
+    "role": "guest",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "82fa4048-d9d9-4329-834e-0138cf079b66",
+      "title": "yogurt"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:21:54",
+    "username": "guest1",
+    "role": "guest",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "82fa4048-d9d9-4329-834e-0138cf079b66",
+      "conversation_title": "yogurt",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:22:00",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:22:10",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:22:15",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:22:24",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:36:54",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:42:25",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:07:37",
+    "username": "client1",
+    "role": "client",
+    "action": "login",
+    "details": {
+      "role": "client"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:07:53",
+    "username": "client1",
+    "role": "client",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:08:02",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:08:21",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:08:29",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:12:56",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:13:36",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:14:11",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:15:13",
+    "username": "client1",
+    "role": "client",
+    "action": "login",
+    "details": {
+      "role": "client"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:15:41",
+    "username": "client1",
+    "role": "client",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:15:51",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:23:54",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:25:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "export_conversations",
+    "details": {
+      "target_user": "guest1",
+      "format": "TXT",
+      "conversation_count": 1
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:26:09",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "1deb03d9-ac8d-4cf9-b171-21c607823dc2",
+      "title": "warzone"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 20:26:26",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 22:45:43",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:01:07",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:01:32",
+    "username": "guest1",
+    "role": "guest",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "82fa4048-d9d9-4329-834e-0138cf079b66",
+      "conversation_title": "yogurt",
+      "message": "what is anti dumping?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:02:48",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:03:15",
+    "username": "guest1",
+    "role": "guest",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "82fa4048-d9d9-4329-834e-0138cf079b66",
+      "conversation_title": "yogurt",
+      "message": "how are you today?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:03:24",
+    "username": "guest1",
+    "role": "guest",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "27f5ee4a-328f-4381-a94e-66323d38b54b",
+      "title": "client1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:03:29",
+    "username": "guest1",
+    "role": "guest",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "27f5ee4a-328f-4381-a94e-66323d38b54b",
+      "conversation_title": "client1",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:03:34",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:03:46",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:04:04",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "b9a7265b-23c8-40ad-9d6b-3a81a88dd604",
+      "title": "yogurt"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:05:09",
+    "username": "admin1",
+    "role": "admin",
+    "action": "export_conversations",
+    "details": {
+      "target_user": "guest1",
+      "format": "TXT",
+      "conversation_count": 1
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:10:58",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:12:03",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:14:28",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:18:31",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-18 00:18:54",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-21 19:52:59",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-21 19:53:18",
+    "username": "guest1",
+    "role": "guest",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "ae59f164-83ea-457e-a3f5-7c5f4386017b",
+      "title": "warzone"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-21 19:53:45",
+    "username": "guest1",
+    "role": "guest",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "ae59f164-83ea-457e-a3f5-7c5f4386017b",
+      "conversation_title": "warzone",
+      "message": "what is your name?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-21 19:54:11",
+    "username": "guest1",
+    "role": "guest",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "ae59f164-83ea-457e-a3f5-7c5f4386017b",
+      "conversation_title": "warzone",
+      "message": "from now on you are sarah, a maths teacher"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-21 19:54:24",
+    "username": "guest1",
+    "role": "guest",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "ae59f164-83ea-457e-a3f5-7c5f4386017b",
+      "conversation_title": "warzone",
+      "message": "who are you?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-21 19:55:18",
+    "username": "guest1",
+    "role": "guest",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "ae59f164-83ea-457e-a3f5-7c5f4386017b",
+      "conversation_title": "warzone",
+      "message": "what is the integral of of e^(x^2)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-21 19:56:07",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-21 19:56:16",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-21 19:57:12",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:36:47",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:36:52",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "7d806f82-fb19-464a-a30c-fb570cf8d624",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:37:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "7d806f82-fb19-464a-a30c-fb570cf8d624",
+      "conversation_title": "New Legal Consultation",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:37:20",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "7d806f82-fb19-464a-a30c-fb570cf8d624",
+      "conversation_title": "New Legal Consultation",
+      "message": "what is anti dumping?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:37:30",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "ad89589b-111c-4072-80a9-41fdf6bc7c0a",
+      "title": "Conversation 2"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:37:36",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "ad89589b-111c-4072-80a9-41fdf6bc7c0a",
+      "conversation_title": "Conversation 2",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:37:50",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "ad89589b-111c-4072-80a9-41fdf6bc7c0a",
+      "title": "Conversation 2"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:37:53",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "7d806f82-fb19-464a-a30c-fb570cf8d624",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:37:55",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "830f242a-14d1-47a7-8777-2f64d62f45a9",
+      "title": "Conversation 1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-04 04:38:05",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "830f242a-14d1-47a7-8777-2f64d62f45a9",
+      "conversation_title": "Conversation 1",
+      "message": "hello, who are you?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:47:18",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:48:06",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_document",
+    "details": {
+      "filename": "GATT1947_en.pdf",
+      "source_id": "source-b7f14980-8273-4cee-aadd-8bec6bae1f92",
+      "source_name": "tropical-gold-constrictor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:48:06",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_document",
+    "details": {
+      "filename": "Legal_data.pdf",
+      "source_id": "source-b7f14980-8273-4cee-aadd-8bec6bae1f92",
+      "source_name": "tropical-gold-constrictor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:48:06",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_document",
+    "details": {
+      "filename": "Legal_data.txt",
+      "source_id": "source-b7f14980-8273-4cee-aadd-8bec6bae1f92",
+      "source_name": "tropical-gold-constrictor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:48:07",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_document",
+    "details": {
+      "filename": "Legal_data1.txt",
+      "source_id": "source-b7f14980-8273-4cee-aadd-8bec6bae1f92",
+      "source_name": "tropical-gold-constrictor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:48:07",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_document",
+    "details": {
+      "filename": "LegalData2.pdf",
+      "source_id": "source-b7f14980-8273-4cee-aadd-8bec6bae1f92",
+      "source_name": "tropical-gold-constrictor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:48:17",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "327e6560-b24b-42cc-993b-00bc46494d19",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:48:46",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "327e6560-b24b-42cc-993b-00bc46494d19",
+      "conversation_title": "New Legal Consultation",
+      "message": "what are in the uploaded documents?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:49:15",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "327e6560-b24b-42cc-993b-00bc46494d19",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 02:49:17",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "830f242a-14d1-47a7-8777-2f64d62f45a9",
+      "title": "Conversation 1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:05:58",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:06:51",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "title": "anti-dumping"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:07:22",
+    "username": "admin1",
+    "role": "admin",
+    "action": "add_agent_to_case",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "agent_id": "agent-b5495779-0547-4de6-8fe4-32b290ff3d6b",
+      "agent_name": "lawyer (agent-b5495779-0547-4de6-8fe4-32b290ff3d6b)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:07:30",
+    "username": "admin1",
+    "role": "admin",
+    "action": "add_agent_to_case",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "agent_id": "agent-fabae238-fbee-4aea-ab20-5069fb7a1df5",
+      "agent_name": "Lawyer1 (agent-fabae238-fbee-4aea-ab20-5069fb7a1df5)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:07:43",
+    "username": "admin1",
+    "role": "admin",
+    "action": "remove_agent_from_case",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "agent_id": "agent-fabae238-fbee-4aea-ab20-5069fb7a1df5",
+      "agent_name": "Lawyer1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:07:48",
+    "username": "admin1",
+    "role": "admin",
+    "action": "add_agent_to_case",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "agent_id": "agent-fabae238-fbee-4aea-ab20-5069fb7a1df5",
+      "agent_name": "Lawyer1 (agent-fabae238-fbee-4aea-ab20-5069fb7a1df5)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:08:01",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "conversation_id": "d79ea0e7-d8c0-41a4-a1a9-9024c0562b40",
+      "title": "admin1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:08:11",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "conversation_id": "d79ea0e7-d8c0-41a4-a1a9-9024c0562b40",
+      "conversation_title": "admin1",
+      "message": "hello?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:08:38",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "conversation_id": "1bd68ccd-26bd-411d-9a77-5b65cee9c6ef",
+      "title": "admin1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:08:48",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "conversation_id": "9b7a1f26-b538-460f-9514-17a43a1008fb",
+      "title": "aarish"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:15:00",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:17:09",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case",
+    "details": {
+      "case_id": "b601363b-d96b-4634-bf23-6eb042178185",
+      "title": "guest1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:30:21",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "b601363b-d96b-4634-bf23-6eb042178185",
+      "title": "guest1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:30:31",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "conversation_id": "f114e58e-7763-4d70-a312-71adc974ec45",
+      "title": "wvqegv"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:31:19",
+    "username": "admin1",
+    "role": "admin",
+    "action": "remove_agent_from_case",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "agent_id": "agent-fabae238-fbee-4aea-ab20-5069fb7a1df5",
+      "agent_name": "Lawyer1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 03:31:25",
+    "username": "admin1",
+    "role": "admin",
+    "action": "add_agent_to_case",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "agent_id": "agent-fabae238-fbee-4aea-ab20-5069fb7a1df5",
+      "agent_name": "Lawyer1 (agent-fabae238-fbee-4aea-ab20-5069fb7a1df5)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 04:09:25",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 04:19:03",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 04:19:29",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "waqeel",
+      "agent_id": "agent-b1b5be05-bf31-46f6-b5b6-c79f23bbac4f"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 04:51:47",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 04:52:38",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "top10",
+      "agent_id": "agent-5f4427f0-0776-4e0b-b808-4d2b818ba291"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 04:52:47",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "cad141aa-9ee7-4d6e-99e7-158d57b40688",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 04:53:14",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "cad141aa-9ee7-4d6e-99e7-158d57b40688",
+      "conversation_title": "New Legal Consultation",
+      "message": "who are you?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 04:53:49",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "cad141aa-9ee7-4d6e-99e7-158d57b40688",
+      "conversation_title": "New Legal Consultation",
+      "message": "do you play warzone?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 05:00:53",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 05:01:13",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "alpha",
+      "agent_id": "agent-ec73b289-7d1a-43cd-b3ce-b941f89b7a8c"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 16:30:42",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 16:31:19",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "kitty",
+      "agent_id": "agent-86ac653a-d554-4903-a6d2-a7aefb21f92c"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 17:01:24",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 17:07:40",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 23:22:11",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 23:29:28",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 23:31:22",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-06 23:31:40",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "bash",
+      "agent_id": "agent-5288f3b8-9f85-4436-9a6e-5b600af05ebc"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:11:33",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "3fd52020-e9c4-4096-9120-8719c3a4c087",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:11:44",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "3fd52020-e9c4-4096-9120-8719c3a4c087",
+      "conversation_title": "New Legal Consultation",
+      "message": "hello, who are you?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:12:10",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "3fd52020-e9c4-4096-9120-8719c3a4c087",
+      "conversation_title": "New Legal Consultation",
+      "message": "what do you do?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:17",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:31",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "lawyer",
+      "agent_id": "agent-b5495779-0547-4de6-8fe4-32b290ff3d6b"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:33",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "Lawyer1",
+      "agent_id": "agent-fabae238-fbee-4aea-ab20-5069fb7a1df5"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:34",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "scratch-agent-agent-1746503500829",
+      "agent_id": "agent-f8430083-bfd6-432c-b960-67396aa833b1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:36",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "scratch-agent-agent-1746503500829",
+      "agent_id": "agent-7fe5bddf-4085-4e9d-b06e-6ce51b8e4506"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:37",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "waqeel",
+      "agent_id": "agent-b1b5be05-bf31-46f6-b5b6-c79f23bbac4f"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:38",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "customer-support-agent-agent-1746506104712",
+      "agent_id": "agent-1b853d3e-e9bf-455a-a023-32c28113da9e"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:38",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "scratch-agent-agent-1746506165330",
+      "agent_id": "agent-1d62a323-0ca5-4d6f-b60c-ec0e25765e38"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:39",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "top10",
+      "agent_id": "agent-5f4427f0-0776-4e0b-b808-4d2b818ba291"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:40",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "alpha",
+      "agent_id": "agent-ec73b289-7d1a-43cd-b3ce-b941f89b7a8c"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:40",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "scratch-agent-agent-1746507880392",
+      "agent_id": "agent-660392b9-0974-45bd-b502-3b4b2f5f944e"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:41",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "kitty",
+      "agent_id": "agent-86ac653a-d554-4903-a6d2-a7aefb21f92c"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:42",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-c8d55231-80a5-41dd-8720-eb601f0947e4"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:43",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "customer-support-agent-agent-1746555473524",
+      "agent_id": "agent-e9556600-ebc6-4a53-96c0-868a621363ad"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:44",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "aarish",
+      "agent_id": "agent-ca834501-d586-413e-b179-6aa47c17755b"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:45",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "best",
+      "agent_id": "agent-a60c8939-12df-4831-b55a-0d93108f3d14"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:14:46",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "bash",
+      "agent_id": "agent-5288f3b8-9f85-4436-9a6e-5b600af05ebc"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:15:32",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "alpha",
+      "agent_id": "agent-a27facfc-f659-4a92-9b37-3699c6de9654"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:15:35",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "36c01715-21d2-4451-b957-0267a7fc2da2",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:15:47",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "36c01715-21d2-4451-b957-0267a7fc2da2",
+      "conversation_title": "New Legal Consultation",
+      "message": "hello, who are you?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:16:08",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "36c01715-21d2-4451-b957-0267a7fc2da2",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:16:09",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "3fd52020-e9c4-4096-9120-8719c3a4c087",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 02:16:10",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "cad141aa-9ee7-4d6e-99e7-158d57b40688",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 17:53:48",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 17:56:10",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "title": "warzone"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 17:56:25",
+    "username": "admin1",
+    "role": "admin",
+    "action": "add_agent_to_case",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "agent_id": "agent-a27facfc-f659-4a92-9b37-3699c6de9654",
+      "agent_name": "alpha (agent-a27facfc-f659-4a92-9b37-3699c6de9654)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 17:56:35",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "conversation_id": "859bbd41-498f-4c56-8e11-663cd241f521",
+      "title": "New Discussion"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 17:57:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "conversation_id": "859bbd41-498f-4c56-8e11-663cd241f521",
+      "conversation_title": "New Discussion",
+      "message": "give me information about GATT"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 17:57:37",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "conversation_id": "6acece29-cbcb-499f-84b0-aaeee674b47e",
+      "title": "GATT"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 17:58:52",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "conversation_id": "6acece29-cbcb-499f-84b0-aaeee674b47e",
+      "conversation_title": "GATT",
+      "message": "Has USA ever implemented anti dumping law on china..."
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:00:13",
+    "username": "admin1",
+    "role": "admin",
+    "action": "generate_case_summary",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "agent_id": "agent-a27facfc-f659-4a92-9b37-3699c6de9654"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:02:04",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "conversation_id": "8a333eca-5e2f-47dc-b0fa-94e702a58906",
+      "title": "new"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:02:31",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "conversation_id": "8a333eca-5e2f-47dc-b0fa-94e702a58906",
+      "conversation_title": "new",
+      "message": "what is GATT?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:02:56",
+    "username": "admin1",
+    "role": "admin",
+    "action": "generate_case_summary",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "agent_id": "agent-a27facfc-f659-4a92-9b37-3699c6de9654"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:03:18",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "3f73820b-0308-4ba9-b414-a980a1b97f19",
+      "title": "warzone"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:03:19",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "6f9fa4ef-912f-4bfc-a528-5eb58f3fa882",
+      "title": "anti-dumping"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:03:29",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "alpha",
+      "agent_id": "agent-a27facfc-f659-4a92-9b37-3699c6de9654"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:07:57",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-21970106-8b48-440e-9ec1-4d595b44d420"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:08:36",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-225a70e8-0252-4113-954f-6630ed863a99"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:08:50",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-225a70e8-0252-4113-954f-6630ed863a99"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:08:52",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "51a1be75-a03f-47f7-8a71-6633361be012",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:09:06",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "51a1be75-a03f-47f7-8a71-6633361be012",
+      "conversation_title": "New Legal Consultation",
+      "message": "who are you?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:12:49",
+    "username": " admin1",
+    "role": null,
+    "action": "failed_login",
+    "details": {
+      "reason": "Invalid credentials"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:12:56",
+    "username": " admin1",
+    "role": null,
+    "action": "failed_login",
+    "details": {
+      "reason": "Invalid credentials"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:13:09",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:13:13",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-21970106-8b48-440e-9ec1-4d595b44d420"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:13:59",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-eda04848-e1f2-4f63-bece-bb7bea35cdcb"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:14:01",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "47cdaeeb-ef06-45eb-b510-c6bc55f72f6e",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:14:06",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "47cdaeeb-ef06-45eb-b510-c6bc55f72f6e",
+      "conversation_title": "New Legal Consultation",
+      "message": "who are you?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:18:40",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:18:48",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-eda04848-e1f2-4f63-bece-bb7bea35cdcb"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:19:13",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-53859699-9ee7-4a06-85e5-a6d053433756"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:19:16",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "2f4d9f29-2d8a-4ce5-8db1-669c46b58570",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:19:25",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "2f4d9f29-2d8a-4ce5-8db1-669c46b58570",
+      "conversation_title": "New Legal Consultation",
+      "message": "hello, who are you?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:44:26",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:44:30",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-53859699-9ee7-4a06-85e5-a6d053433756"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:44:35",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "2f4d9f29-2d8a-4ce5-8db1-669c46b58570",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:44:36",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "47cdaeeb-ef06-45eb-b510-c6bc55f72f6e",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:44:37",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "51a1be75-a03f-47f7-8a71-6633361be012",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:45:08",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-f352195a-6ea0-46b1-8e7c-0fb452c07b27"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:45:11",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "7ad7a092-3066-4436-b042-2a75363ea146",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:45:19",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "7ad7a092-3066-4436-b042-2a75363ea146",
+      "conversation_title": "New Legal Consultation",
+      "message": "hello, who are you?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:45:38",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "7ad7a092-3066-4436-b042-2a75363ea146",
+      "conversation_title": "New Legal Consultation",
+      "message": "do you play worzone?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:45:59",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "7ad7a092-3066-4436-b042-2a75363ea146",
+      "conversation_title": "New Legal Consultation",
+      "message": "what is your name/"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:46:18",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "7ad7a092-3066-4436-b042-2a75363ea146",
+      "conversation_title": "New Legal Consultation",
+      "message": "what is your ethnicity?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:55:16",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:55:20",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-f352195a-6ea0-46b1-8e7c-0fb452c07b27"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:55:21",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "scratch-agent-agent-1746643622162",
+      "agent_id": "agent-f532442f-e72c-4c91-ba8d-ff6cbb98f8a4"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:55:50",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-5747dbb3-3fd5-4be8-a826-b8f652373981"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:55:53",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "a708ee5c-9117-440f-89d2-7bb5985ea6fb",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:56:08",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "a708ee5c-9117-440f-89d2-7bb5985ea6fb",
+      "conversation_title": "New Legal Consultation",
+      "message": "what is your warzone ranking?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:56:22",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "a708ee5c-9117-440f-89d2-7bb5985ea6fb",
+      "conversation_title": "New Legal Consultation",
+      "message": "what is your name/"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:56:49",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-5747dbb3-3fd5-4be8-a826-b8f652373981"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:57:01",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "a708ee5c-9117-440f-89d2-7bb5985ea6fb",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:57:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "7ad7a092-3066-4436-b042-2a75363ea146",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:58:08",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "title": "pigeon"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:58:11",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:58:20",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "login",
+    "details": {
+      "role": "legal_advisor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:58:31",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:58:40",
+    "username": "client1",
+    "role": "client",
+    "action": "login",
+    "details": {
+      "role": "client"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:59:04",
+    "username": "client1",
+    "role": "client",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:59:12",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:59:28",
+    "username": "guest1",
+    "role": "guest",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "ae59f164-83ea-457e-a3f5-7c5f4386017b",
+      "title": "warzone"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:59:28",
+    "username": "guest1",
+    "role": "guest",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "27f5ee4a-328f-4381-a94e-66323d38b54b",
+      "title": "client1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:59:29",
+    "username": "guest1",
+    "role": "guest",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "82fa4048-d9d9-4329-834e-0138cf079b66",
+      "title": "yogurt"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 18:59:34",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:19:09",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:19:14",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "internet-chatbot-agent-agent-1746648493769",
+      "agent_id": "agent-e3ca4638-6474-444d-87bf-f736162fd990"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:19:37",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-87c48831-b462-4b5a-9191-8c64a927fc53"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:19:39",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "e556da54-5fdd-4b47-82d8-e9202891afe1",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:19:49",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "e556da54-5fdd-4b47-82d8-e9202891afe1",
+      "conversation_title": "New Legal Consultation",
+      "message": "can you do web search?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:20:22",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "e556da54-5fdd-4b47-82d8-e9202891afe1",
+      "conversation_title": "New Legal Consultation",
+      "message": "what are the hours for roy library depauw?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:23:15",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "e556da54-5fdd-4b47-82d8-e9202891afe1",
+      "conversation_title": "New Legal Consultation",
+      "message": "Who founded OpenAI?\\"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:43:54",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:43:58",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-87c48831-b462-4b5a-9191-8c64a927fc53"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 20:44:00",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "internet-chatbot-agent-agent-1746649491927",
+      "agent_id": "agent-cd2925d5-54d5-488e-bbdf-76cd11441d9f"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:13:47",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:13:51",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-da859e96-5d19-402a-8821-2083c5eddeff"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:20:10",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:20:14",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-4684f61b-286a-430b-a135-4634a3b4f46a"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:20:15",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "internet-chatbot-agent-agent-1746656197348",
+      "agent_id": "agent-5bd72e25-b28e-4017-8ad0-a8bd4588ec0f"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:21:35",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:21:40",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-b41e5ddb-eae0-44e2-8009-b474359a8394"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:21:41",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-99d3b47f-8fd3-4aec-ad3a-035b231e0355"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:21:42",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-2c64bb7a-4422-4618-8ac4-3cd69a301ccd"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:25:51",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:25:57",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-e1608e61-93f7-4fc2-b712-a803538ffcc5"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:33:38",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:33:41",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-0d6054b1-cd67-4aa8-9ffa-452659c84d39"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:36:13",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:36:16",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-7bfaad87-b877-4d01-bbed-8842e499e293"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:36:54",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "conversation_id": "c5eabbee-8c21-4bf7-ac17-41d15f74e17c",
+      "title": "jgvy"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:36:59",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "conversation_id": "f33f2829-8c54-4df0-8811-e427323bf473",
+      "title": "hgv hgv"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:37:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "conversation_id": "bd171c1c-2c54-4d95-a55a-736a3c8b4e99",
+      "title": "knj jhb"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:37:16",
+    "username": "admin1",
+    "role": "admin",
+    "action": "add_agent_to_case",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "agent_id": "agent-dcb9d08e-bb51-4113-b2e8-b8601bb690f7",
+      "agent_name": "yogurt (agent-dcb9d08e-bb51-4113-b2e8-b8601bb690f7)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:37:35",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "conversation_id": "c5eabbee-8c21-4bf7-ac17-41d15f74e17c",
+      "conversation_title": "jgvy",
+      "message": "what is GATT"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:37:49",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "conversation_id": "c5eabbee-8c21-4bf7-ac17-41d15f74e17c",
+      "conversation_title": "jgvy",
+      "message": "GATT in law"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:38:26",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "conversation_id": "f33f2829-8c54-4df0-8811-e427323bf473",
+      "conversation_title": "hgv hgv",
+      "message": "Has usa ever imposed anti dumping laws on china?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:38:40",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_conversation",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "conversation_id": "bd171c1c-2c54-4d95-a55a-736a3c8b4e99",
+      "title": "knj jhb"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:38:54",
+    "username": "admin1",
+    "role": "admin",
+    "action": "generate_case_summary",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "agent_id": "agent-dcb9d08e-bb51-4113-b2e8-b8601bb690f7"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:39:54",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "997daec9-7c96-4318-a4d1-64905501b714",
+      "title": "pigeon"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:39:58",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-dcb9d08e-bb51-4113-b2e8-b8601bb690f7"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:47:42",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:47:45",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-16b6ca7b-7ad0-441f-8d78-b0f83c021e48"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:51:00",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:51:05",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "yogurt",
+      "agent_id": "agent-7fd4f00f-1ebd-44ac-8474-fc497d6c3880"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 22:51:29",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "client1",
+      "agent_id": "agent-5d649058-8105-4f1b-abdf-0cb6350bd451"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:00:57",
+    "username": " admin1",
+    "role": null,
+    "action": "failed_login",
+    "details": {
+      "reason": "Invalid credentials"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:01:01",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:01:05",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "client1",
+      "agent_id": "agent-f4aa322a-ec16-48c7-8b79-1825672653ca"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:03:07",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:03:10",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-fa19ca03-a2ca-4801-88e1-3efb69fc5af4"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:09:24",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:09:27",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-6340fb43-282f-4133-be1e-3ee3fd4311b6"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:09:40",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-bcded2e4-d277-4988-82eb-e0e5b473d4a2"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:09:49",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "f2fc7cb7-f693-4f60-ab1d-6c94d3102929",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:10:05",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "f2fc7cb7-f693-4f60-ab1d-6c94d3102929",
+      "conversation_title": "New Legal Consultation",
+      "message": "who started openai?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:10:47",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "f2fc7cb7-f693-4f60-ab1d-6c94d3102929",
+      "conversation_title": "New Legal Consultation",
+      "message": "can you perform web search and tell about the late..."
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:18:31",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:18:34",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-bcded2e4-d277-4988-82eb-e0e5b473d4a2"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:21:16",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:21:21",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-2a5708c5-edbf-43d8-9b77-b863c9a12a6f"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:21:33",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "alpha",
+      "agent_id": "agent-1a4b43aa-0b30-47d4-93f7-4ef902ea7092"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:21:36",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "c1f740f1-f522-4f62-b949-b6eaf4018769",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-07 23:22:16",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "c1f740f1-f522-4f62-b949-b6eaf4018769",
+      "conversation_title": "New Legal Consultation",
+      "message": "do a web search and tell me about recent trade law..."
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 00:17:16",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "c1f740f1-f522-4f62-b949-b6eaf4018769",
+      "conversation_title": "New Legal Consultation",
+      "message": "Latest news about Pakistan Indian war"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 00:18:55",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "c1f740f1-f522-4f62-b949-b6eaf4018769",
+      "conversation_title": "New Legal Consultation",
+      "message": "Summarise the article:\n\nhttps://www.theguardian.co..."
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 00:19:59",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "c1f740f1-f522-4f62-b949-b6eaf4018769",
+      "conversation_title": "New Legal Consultation",
+      "message": "Get actual numbers from the article above"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 00:20:52",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "c1f740f1-f522-4f62-b949-b6eaf4018769",
+      "conversation_title": "New Legal Consultation",
+      "message": "Get the death toll from the article"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:01:34",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "login",
+    "details": {
+      "role": "legal_advisor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:01:47",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case",
+    "details": {
+      "case_id": "f5b01812-4845-4511-950f-609b70378652",
+      "title": "warzone"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:01:53",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "f5b01812-4845-4511-950f-609b70378652",
+      "conversation_id": "f8478728-4290-4d51-9a4e-2da1938b02e4",
+      "title": "New Discussion"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:01:57",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "f5b01812-4845-4511-950f-609b70378652",
+      "conversation_id": "f8478728-4290-4d51-9a4e-2da1938b02e4",
+      "conversation_title": "New Discussion",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:11:53",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:12:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-41f6a363-8e4e-4d18-b941-0270643070a0"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:12:13",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "f98de380-2520-4902-a37f-f4c83587d5ee",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:12:16",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "f98de380-2520-4902-a37f-f4c83587d5ee",
+      "conversation_title": "New Legal Consultation",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:13:01",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-41f6a363-8e4e-4d18-b941-0270643070a0"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:13:03",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "alpha",
+      "agent_id": "agent-1a4b43aa-0b30-47d4-93f7-4ef902ea7092"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:13:19",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "f98de380-2520-4902-a37f-f4c83587d5ee",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:13:19",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "c1f740f1-f522-4f62-b949-b6eaf4018769",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:13:20",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "f2fc7cb7-f693-4f60-ab1d-6c94d3102929",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:13:21",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "e556da54-5fdd-4b47-82d8-e9202891afe1",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:14:24",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:14:33",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "alpha",
+      "agent_id": "agent-fdca12c3-6988-4861-b7ba-49828542fece"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:14:35",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "87254a13-d541-47ac-ab5d-0ff79ebac16c",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:14:38",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "87254a13-d541-47ac-ab5d-0ff79ebac16c",
+      "conversation_title": "New Legal Consultation",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:15:13",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "87254a13-d541-47ac-ab5d-0ff79ebac16c",
+      "conversation_title": "New Legal Consultation",
+      "message": "get me the latest news from bbc"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:17:23",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case",
+    "details": {
+      "case_id": "d7401d1e-15a1-4a03-ae17-d22379279f9e",
+      "title": "admin1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:17:37",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "f5b01812-4845-4511-950f-609b70378652",
+      "conversation_id": "76bc4d2b-cdd9-4a0d-82d9-b08c5c74b89d",
+      "title": "New Discussion"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:17:45",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "f5b01812-4845-4511-950f-609b70378652",
+      "title": "warzone (by advisor1)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:17:47",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "d7401d1e-15a1-4a03-ae17-d22379279f9e",
+      "title": "admin1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:17:55",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:21:48",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:22:56",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:23:43",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:23:52",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "login",
+    "details": {
+      "role": "legal_advisor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:24:05",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "title": "h"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:24:11",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "conversation_id": "c2f5b181-62c8-43c5-be8f-e922bcf02c62",
+      "title": "h"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:24:14",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "conversation_id": "c2f5b181-62c8-43c5-be8f-e922bcf02c62",
+      "conversation_title": "h",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:24:20",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:24:31",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:24:44",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:37:50",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:39:51",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:40:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "client1",
+      "agent_id": "agent-d8ca7f4c-88f2-4f58-85c9-921134bcc42a"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:40:07",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "6030d513-1871-4438-962e-e7bfa1cb7eb0",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:40:12",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "6030d513-1871-4438-962e-e7bfa1cb7eb0",
+      "conversation_title": "New Legal Consultation",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:40:23",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "6030d513-1871-4438-962e-e7bfa1cb7eb0",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:40:24",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_conversation",
+    "details": {
+      "conversation_id": "87254a13-d541-47ac-ab5d-0ff79ebac16c",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:41:30",
+    "username": "admin1",
+    "role": "admin",
+    "action": "assign_workflow",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "workflow_name": "Trade Dispute Analysis",
+      "template_id": "trade_dispute"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:41:56",
+    "username": "admin1",
+    "role": "admin",
+    "action": "update_workflow_stage",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "stage_name": "Legal Research",
+      "old_status": "not_started",
+      "new_status": "in_progress"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:42:03",
+    "username": "admin1",
+    "role": "admin",
+    "action": "update_workflow_stage",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "stage_name": "Initial Assessment",
+      "old_status": "in_progress",
+      "new_status": "completed"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:43:25",
+    "username": "admin1",
+    "role": "admin",
+    "action": "update_workflow_stage",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "stage_name": "Legal Research",
+      "old_status": "in_progress",
+      "new_status": "completed"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:43:30",
+    "username": "admin1",
+    "role": "admin",
+    "action": "update_workflow_stage",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "stage_name": "Strategy Development",
+      "old_status": "in_progress",
+      "new_status": "completed"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:44:03",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "title": "h (by advisor1)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:44:05",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "f5b01812-4845-4511-950f-609b70378652",
+      "title": "warzone (by advisor1)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:44:46",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case",
+    "details": {
+      "case_id": "df7fbe00-4531-436e-9174-c216d9138e2e",
+      "title": "wto 5"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:45:03",
+    "username": "admin1",
+    "role": "admin",
+    "action": "assign_workflow",
+    "details": {
+      "case_id": "df7fbe00-4531-436e-9174-c216d9138e2e",
+      "workflow_name": "WTO Compliance Check",
+      "template_id": "wto_compliance"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:45:21",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "df7fbe00-4531-436e-9174-c216d9138e2e",
+      "title": "wto 5"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:45:38",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case",
+    "details": {
+      "case_id": "930b4bd2-035e-4b3c-91e8-6878d1246a61",
+      "title": "wto 5"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:57:12",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:57:22",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "title": "h (by advisor1)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:57:23",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "930b4bd2-035e-4b3c-91e8-6878d1246a61",
+      "title": "wto 5"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:57:25",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "f5b01812-4845-4511-950f-609b70378652",
+      "title": "warzone (by advisor1)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:58:08",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "title": "warzone"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:58:08",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "12 Le Guin, The Ones Who Walk Away from Omelas.pdf",
+      "file_size": 153930
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:58:08",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "12 Nozick, The Experience Machine.pdf",
+      "file_size": 293233
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:58:08",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "13 Nielsen, Against Moral Conservatism.pdf",
+      "file_size": 315321
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:58:08",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "14 Hospers, Rule-Utilitarianism (F23).pdf",
+      "file_size": 188845
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:58:25",
+    "username": "admin1",
+    "role": "admin",
+    "action": "add_agent_to_case",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "agent_id": "agent-d8ca7f4c-88f2-4f58-85c9-921134bcc42a",
+      "agent_name": "client1 (agent-d8ca7f4c-88f2-4f58-85c9-921134bcc42a)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 19:58:28",
+    "username": "admin1",
+    "role": "admin",
+    "action": "add_agent_to_case",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "agent_id": "agent-fdca12c3-6988-4861-b7ba-49828542fece",
+      "agent_name": "alpha (agent-fdca12c3-6988-4861-b7ba-49828542fece)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:00:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "12 Le Guin, The Ones Who Walk Away from Omelas.pdf"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:00:04",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "12 Nozick, The Experience Machine.pdf"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:00:05",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "13 Nielsen, Against Moral Conservatism.pdf"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:00:06",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "14 Hospers, Rule-Utilitarianism (F23).pdf"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:02:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "alpha",
+      "agent_id": "agent-fdca12c3-6988-4861-b7ba-49828542fece"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:02:04",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "client1",
+      "agent_id": "agent-d8ca7f4c-88f2-4f58-85c9-921134bcc42a"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:38:15",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "12 Nozick, The Experience Machine.pdf",
+      "file_size": 293233
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:38:15",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "13 Nielsen, Against Moral Conservatism.pdf",
+      "file_size": 315321
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:38:15",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "14 Hospers, Rule-Utilitarianism (F23).pdf",
+      "file_size": 188845
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:38:15",
+    "username": "admin1",
+    "role": "admin",
+    "action": "upload_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "16 Singer, Famine, Affluence, and Morality.pdf",
+      "file_size": 1891271
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:39:00",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-c2ab1a92-c439-4394-b2c7-952534d3e426"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:41:56",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:42:24",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "16 Singer, Famine, Affluence, and Morality.pdf"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:42:26",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "14 Hospers, Rule-Utilitarianism (F23).pdf"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:42:27",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "13 Nielsen, Against Moral Conservatism.pdf"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:42:28",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_document",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "filename": "12 Nozick, The Experience Machine.pdf"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:42:42",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:47:32",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:48:04",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "conversation_id": "6df6acd5-2167-4427-9861-808010099b63",
+      "title": "new"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:48:06",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "conversation_id": "3a41f1e1-4771-4a6e-807c-45ec9e208b49",
+      "title": "new"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:48:09",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case_conversation",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "conversation_id": "3a41f1e1-4771-4a6e-807c-45ec9e208b49",
+      "title": "new"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 20:48:21",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "conversation_id": "b1b3a38f-9809-4d28-a05a-abe8b042cec5",
+      "title": "law"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 21:46:09",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:13:14",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "login",
+    "details": {
+      "role": "legal_advisor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:13:20",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "warzone",
+      "agent_id": "agent-c2ab1a92-c439-4394-b2c7-952534d3e426"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:13:28",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "delete_case",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "title": "h"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:13:30",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "delete_case",
+    "details": {
+      "case_id": "f5b01812-4845-4511-950f-609b70378652",
+      "title": "warzone"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:41:22",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "Legal expert ",
+      "agent_id": "agent-234b97ee-24ba-49ae-b20f-347310e68b14"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:42:19",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:42:26",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:42:50",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "f5b01812-4845-4511-950f-609b70378652",
+      "title": "warzone (by advisor1)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:42:51",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "a147f675-4898-4fe1-b2a7-243d8ec76fd0",
+      "title": "h (by advisor1)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:42:53",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "b61b5b32-7f4d-49d1-afab-75821a1e93cf",
+      "title": "warzone"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:42:56",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:43:04",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "login",
+    "details": {
+      "role": "legal_advisor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:44:26",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case",
+    "details": {
+      "case_id": "07234141-8218-4717-ac72-03fecdd5a4cb",
+      "title": "WTO"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:44:26",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "07234141-8218-4717-ac72-03fecdd5a4cb",
+      "filename": "14 Hospers, Rule-Utilitarianism (F23).pdf",
+      "file_size": 188845
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:44:26",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "07234141-8218-4717-ac72-03fecdd5a4cb",
+      "filename": "16 Singer, Famine, Affluence, and Morality (1).pdf",
+      "file_size": 1891271
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:44:26",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "07234141-8218-4717-ac72-03fecdd5a4cb",
+      "filename": "16 Singer, Famine, Affluence, and Morality.pdf",
+      "file_size": 1891271
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:44:26",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "07234141-8218-4717-ac72-03fecdd5a4cb",
+      "filename": "17 Harwood, Eleven Objections to Utilitarianism.pdf",
+      "file_size": 229926
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:45:05",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "delete_case",
+    "details": {
+      "case_id": "07234141-8218-4717-ac72-03fecdd5a4cb",
+      "title": "WTO"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:46:19",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case",
+    "details": {
+      "case_id": "f7f08ff2-5554-4454-a544-41814a042aab",
+      "title": "kg"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:46:32",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "assign_workflow",
+    "details": {
+      "case_id": "f7f08ff2-5554-4454-a544-41814a042aab",
+      "workflow_name": "WTO Compliance Check",
+      "template_id": "wto_compliance"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:46:46",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "delete_case",
+    "details": {
+      "case_id": "f7f08ff2-5554-4454-a544-41814a042aab",
+      "title": "kg"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:47:20",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "title": "WTO"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:47:20",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "filename": "14 Hospers, Rule-Utilitarianism (F23).pdf",
+      "file_size": 188845
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:47:20",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "filename": "16 Singer, Famine, Affluence, and Morality (1).pdf",
+      "file_size": 1891271
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:47:20",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "filename": "16 Singer, Famine, Affluence, and Morality.pdf",
+      "file_size": 1891271
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:47:20",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "upload_document_during_case_creation",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "filename": "17 Harwood, Eleven Objections to Utilitarianism.pdf",
+      "file_size": 229926
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:47:29",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "conversation_id": "2e9308bd-12f4-437c-bdb2-f370947bf2b2",
+      "title": "GATT"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:47:46",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "conversation_id": "2e9308bd-12f4-437c-bdb2-f370947bf2b2",
+      "conversation_title": "GATT",
+      "message": "What is GATT in law?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:48:09",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "conversation_id": "f4d52c97-c74e-4f15-844d-66ac7c0d2060",
+      "title": "anti dumping"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:48:33",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "conversation_id": "f4d52c97-c74e-4f15-844d-66ac7c0d2060",
+      "conversation_title": "anti dumping",
+      "message": "Has USA ever imposed anti dumping laws on china?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:49:17",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "generate_case_summary",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "agent_id": "agent-234b97ee-24ba-49ae-b20f-347310e68b14"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:49:38",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "assign_workflow",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "workflow_name": "WTO Compliance Check",
+      "template_id": "wto_compliance"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:49:46",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "update_workflow_stage",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "stage_name": "Regulation Review",
+      "old_status": "in_progress",
+      "new_status": "completed"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:49:50",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "update_workflow_stage",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "stage_name": "Gap Analysis",
+      "old_status": "in_progress",
+      "new_status": "not_started"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:49:59",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:50:06",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:51:46",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_case",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "title": "WTO (by advisor1)"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:51:49",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:52:00",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "login",
+    "details": {
+      "role": "legal_advisor"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:52:04",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "delete_case",
+    "details": {
+      "case_id": "861d17fb-a5fd-492a-a00e-0741f172e1bc",
+      "title": "WTO"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:52:41",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case",
+    "details": {
+      "case_id": "273a4742-5e97-4a8c-8d1e-77cfa9abb7a6",
+      "title": "WTO"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:52:49",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "273a4742-5e97-4a8c-8d1e-77cfa9abb7a6",
+      "conversation_id": "9367c059-dc55-449f-a5d7-12f59ab6f42c",
+      "title": "GATT"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:52:59",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "273a4742-5e97-4a8c-8d1e-77cfa9abb7a6",
+      "conversation_id": "9367c059-dc55-449f-a5d7-12f59ab6f42c",
+      "conversation_title": "GATT",
+      "message": "What is GATT in law?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:53:15",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "create_case_conversation",
+    "details": {
+      "case_id": "273a4742-5e97-4a8c-8d1e-77cfa9abb7a6",
+      "conversation_id": "ac86ea98-8bc8-4cfc-91ef-0bc52b63f519",
+      "title": "Anti dumping"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:53:38",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "send_case_message",
+    "details": {
+      "case_id": "273a4742-5e97-4a8c-8d1e-77cfa9abb7a6",
+      "conversation_id": "ac86ea98-8bc8-4cfc-91ef-0bc52b63f519",
+      "conversation_title": "Anti dumping",
+      "message": "Has ever USA imposed anti dumping laws on China?"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:54:05",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "generate_case_summary",
+    "details": {
+      "case_id": "273a4742-5e97-4a8c-8d1e-77cfa9abb7a6",
+      "agent_id": "agent-234b97ee-24ba-49ae-b20f-347310e68b14"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:54:38",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "assign_workflow",
+    "details": {
+      "case_id": "273a4742-5e97-4a8c-8d1e-77cfa9abb7a6",
+      "workflow_name": "WTO Compliance Check",
+      "template_id": "wto_compliance"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:54:46",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "update_workflow_stage",
+    "details": {
+      "case_id": "273a4742-5e97-4a8c-8d1e-77cfa9abb7a6",
+      "stage_name": "Regulation Review",
+      "old_status": "in_progress",
+      "new_status": "completed"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:54:51",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "update_workflow_stage",
+    "details": {
+      "case_id": "273a4742-5e97-4a8c-8d1e-77cfa9abb7a6",
+      "stage_name": "Gap Analysis",
+      "old_status": "in_progress",
+      "new_status": "completed"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:55:12",
+    "username": "advisor1",
+    "role": "legal_advisor",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:55:20",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 22:55:45",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_case",
+    "details": {
+      "case_id": "9e05acf7-5b30-4961-8beb-53d5c3d9162f",
+      "title": "WTO2"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:02:28",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:02:58",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "client1",
+      "agent_id": "agent-725a00c6-a17e-463c-b4e0-3db6e85440cb"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:03:14",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "d51259a6-b0d6-4782-a7f1-cf61ca82de8e",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:03:30",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "d51259a6-b0d6-4782-a7f1-cf61ca82de8e",
+      "conversation_title": "New Legal Consultation",
+      "message": "Tell me recent news from BBC"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:04:17",
+    "username": "admin1",
+    "role": "admin",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:05:40",
+    "username": "admin1",
+    "role": "admin",
+    "action": "login",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:06:11",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_agent",
+    "details": {
+      "agent_name": "client1",
+      "agent_id": "agent-432aefe1-5751-4f8f-b514-9c844e1549e2"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:06:20",
+    "username": "admin1",
+    "role": "admin",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "92a89b2e-cb98-4966-ac47-ce7d8eebe7d0",
+      "title": "New Legal Consultation"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:06:35",
+    "username": "admin1",
+    "role": "admin",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "92a89b2e-cb98-4966-ac47-ce7d8eebe7d0",
+      "conversation_title": "New Legal Consultation",
+      "message": "Give me latest news from BBC"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:07:00",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "client1",
+      "agent_id": "agent-725a00c6-a17e-463c-b4e0-3db6e85440cb"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:07:01",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "Legal expert ",
+      "agent_id": "agent-234b97ee-24ba-49ae-b20f-347310e68b14"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-05-08 23:07:02",
+    "username": "admin1",
+    "role": "admin",
+    "action": "delete_agent",
+    "details": {
+      "agent_name": "client1",
+      "agent_id": "agent-432aefe1-5751-4f8f-b514-9c844e1549e2"
+    },
+    "ip_address": "127.0.0.1"
+  }
+]

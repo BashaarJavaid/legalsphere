@@ -1,0 +1,29 @@
+{
+    "description": "Search the web for real-time information using Google Search API",
+    "source_type": "python",
+    "name": "google_search2",
+    "tags": ["search", "web"],
+    "source_code": "import requests\n\ndef google_search2(query: str):\n    '''\n    Search Google using a query via the Google Custom Search JSON API.\n\n    Args:\n        query (str): The search query.\n\n    Returns:\n        str: A concatenated list of the top search results.\n    '''\n    api_key = \"AIzaSyAdRSwZowxnLFN0viaoH0f2U_YbV0F9GB4\"\n    search_engine_id = \"71af3156c581e4e7e\"\n    \n    url = \"https://www.googleapis.com/customsearch/v1\"\n    \n    params = {\n        \"key\": api_key,\n        \"cx\": search_engine_id,\n        \"q\": query\n    }\n    \n    try:\n        response = requests.get(url, params=params)\n        response.raise_for_status()  # Raise an exception for HTTP errors\n        \n        search_results = response.json()\n        \n        if \"items\" not in search_results:\n            return \"No results found for your query.\"\n        \n        formatted_results = []\n        for i, item in enumerate(search_results[\"items\"], 1):\n            title = item.get(\"title\", \"No title\")\n            link = item.get(\"link\", \"No link\")\n            snippet = item.get(\"snippet\", \"No description\")\n            \n            formatted_results.append(f\"{i}. {title}\\n   URL: {link}\\n   Description: {snippet}\\n\")\n        \n        return \"\\n\".join(formatted_results)\n    \n    except requests.exceptions.RequestException as e:\n        return f\"Error performing search: {str(e)}\"\n    except Exception as e:\n        return f\"An unexpected error occurred: {str(e)}\"",
+    "json_schema": {
+        "name": "google_search2",
+        "description": "Search Google using a query.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "The search query."
+                },
+                "request_heartbeat": {
+                    "type": "boolean",
+                    "description": "Request an immediate heartbeat after function execution. Set to `True` if you want to send a follow-up message or run a follow-up function."
+                }
+            },
+            "required": [
+                "query",
+                "request_heartbeat"
+            ]
+        }
+    }
+}
+

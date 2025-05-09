@@ -1,0 +1,61 @@
+[
+  {
+    "timestamp": "2025-04-17 19:21:40",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:21:51",
+    "username": "guest1",
+    "role": "guest",
+    "action": "create_conversation",
+    "details": {
+      "conversation_id": "82fa4048-d9d9-4329-834e-0138cf079b66",
+      "title": "yogurt"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:21:54",
+    "username": "guest1",
+    "role": "guest",
+    "action": "send_message",
+    "details": {
+      "conversation_id": "82fa4048-d9d9-4329-834e-0138cf079b66",
+      "conversation_title": "yogurt",
+      "message": "hello"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:22:00",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:22:10",
+    "username": "guest1",
+    "role": "guest",
+    "action": "login",
+    "details": {
+      "role": "guest"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-04-17 19:22:15",
+    "username": "guest1",
+    "role": "guest",
+    "action": "logout",
+    "details": {},
+    "ip_address": "127.0.0.1"
+  }
+]
